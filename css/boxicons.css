@@ -76,6 +76,32 @@
                 transform: rotate(359deg);
     }
 }
+@-webkit-keyframes spin-reverse
+{
+    0%
+    {
+        -webkit-transform: rotate(0);
+                transform: rotate(0);
+    }
+    100%
+    {
+        -webkit-transform: rotate(-359deg);
+                transform: rotate(-359deg);
+    }
+}
+@keyframes spin-reverse
+{
+    0%
+    {
+        -webkit-transform: rotate(0);
+                transform: rotate(0);
+    }
+    100%
+    {
+        -webkit-transform: rotate(-359deg);
+                transform: rotate(-359deg);
+    }
+}
 @-webkit-keyframes burst
 {
     0%
@@ -362,6 +388,17 @@
 {
     -webkit-animation: spin 2s linear infinite;
             animation: spin 2s linear infinite;
+}
+
+.bx-spin-reverse
+{
+    -webkit-animation: spin-reverse 2s linear infinite;
+            animation: spin-reverse 2s linear infinite;
+}
+.bx-spin-reverse-hover:hover
+{
+    -webkit-animation: spin-reverse 2s linear infinite;
+            animation: spin-reverse 2s linear infinite;
 }
 
 .bx-tada

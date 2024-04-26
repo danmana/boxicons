@@ -102,7 +102,7 @@ The `<box-icon>` custom element supports the following attributes:
 -   `rotate`: one of the following values: `90`, `180`, `270`
 -   `flip`:  one of the following values: `horizontal`, `vertical`
 -   `border`: one of the following values: `square`, `circle`
--   `animation`: One of the following values: `spin`, `tada`, `flashing`, `burst`, `fade-left`, `fade-right`, `spin-hover`, `tada-hover`, `flashing-hover`, `burst-hover`, `fade-left-hover`, `fade-right-hover`
+-   `animation`: One of the following values: `spin`, `spin-reverse`, `tada`, `flashing`, `burst`, `fade-left`, `fade-right`, `spin-hover`, `spin-reverse-hover`,`tada-hover`, `flashing-hover`, `burst-hover`, `fade-left-hover`, `fade-right-hover`
 -   `pull`: one of the following values: `left`,`right`
 The Custom Element class (`BoxIconElement`) exposes the following static members:
 
